@@ -1,0 +1,155 @@
+@charset "utf-8";
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:"Times New Roman";
+    background:#f5f0df;
+}
+
+/* HEADER */
+
+header{
+    display:flex;
+    height:120px;
+    background:#e51d1d;
+    align-items:center;
+}
+
+.logo{
+    width:20%;
+}
+
+.logo img{
+    width:100%;
+    height:100px;
+    object-fit:contain;
+}
+
+.title{
+    flex:1;
+    text-align:center;
+    background:#d8cb17;
+    height:80px;
+    padding-top:10px;
+}
+
+.title h1{
+    font-size:50px;
+}
+
+.title p{
+    color:blue;
+}
+
+.avatar{
+    width:15%;
+}
+
+.avatar img{
+    width:100%;
+    height:100px;
+    object-fit:contain;
+}
+
+/* BODY */
+
+.container{
+    display:flex;
+    min-height:700px;
+}
+
+/* MENU */
+
+aside{
+    width:25%;
+    background:#101010;
+    color:white;
+    padding:30px;
+}
+
+aside h2{
+    color:yellow;
+    margin-bottom:30px;
+    font-size:40px;
+}
+
+aside ul{
+    list-style:none;
+}
+
+aside ul li{
+    margin:25px 0;
+}
+
+aside ul li a{
+    color:white;
+    font-size:30px;
+    text-decoration:none;
+}
+
+/* CONTENT */
+
+main{
+    width:75%;
+    padding:40px;
+    background:url(images/map.jpg);
+    background-size:cover;
+}
+
+main h1{
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.info{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:28px;
+}
+
+form{
+    width:60%;
+    margin:auto;
+}
+
+form label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:bold;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border:1px solid #999;
+    border-radius:5px;
+}
+
+button{
+    display:block;
+    margin:20px auto;
+    padding:12px 35px;
+    background:#e62525;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#0047d4;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:24px;
+}/* CSS Document */
+
